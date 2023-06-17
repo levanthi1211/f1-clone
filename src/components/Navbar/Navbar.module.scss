@@ -1,0 +1,18 @@
+.link {
+  font-size: 18px;
+  font-weight: bold;
+  color: white !important;
+  display: block;
+  padding: 0rem 2rem;
+  &.active {
+    background-color: white;
+    color: #e30118 !important;
+  }
+}
+
+.menu {
+  background-color: transparent;
+  width: 100%;
+  margin: 0rem -1rem;
+  border: 0;
+}

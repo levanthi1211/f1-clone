@@ -1,0 +1,26 @@
+.container {
+  width: 80%;
+  margin: 3rem auto;
+
+  .year {
+    font-weight: bold;
+  }
+
+  .driver {
+    font-weight: bold;
+    padding-right: 0.5rem;
+    span {
+      padding-right: 0.5rem;
+      color: #666;
+    }
+  }
+
+  .section {
+    font-weight: bold;
+    color: #000979;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin: 3rem 0rem 2rem;
+  }
+}

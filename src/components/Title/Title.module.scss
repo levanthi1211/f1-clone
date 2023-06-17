@@ -1,0 +1,51 @@
+.title_container {
+  width: 80%;
+  margin: 1.5rem auto;
+  padding: 30px 40px;
+  background: rgb(227, 1, 24);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 1, 24, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(253, 217, 0, 1) 100%
+  );
+  border-radius: 0.5rem;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  .title {
+    h1 {
+      font-size: 40px;
+      text-transform: uppercase;
+    }
+    p.year {
+      font-weight: bold;
+      font-size: 32px;
+      color: #ddd;
+    }
+    .changer {
+      user-select: none;
+      padding: 0.5rem 1rem;
+      font-size: 18px;
+      background-color: white;
+      display: inline-block;
+      color: #e30118;
+      cursor: pointer;
+    }
+  }
+  .years {
+    margin-top: 1rem;
+    .year {
+      cursor: pointer;
+      padding: 0.25rem 0.75rem;
+      display: inline-block;
+      margin-right: 0.5rem;
+      margin-top: 0.5rem;
+      background-color: transparent;
+      border: 1px solid white;
+      &:hover {
+        color: #e30118;
+        background: white;
+      }
+    }
+  }
+}

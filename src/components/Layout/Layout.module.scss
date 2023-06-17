@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 5rem;
+  height: 5rem;
+  padding: 0;
+  background-color: #e30118;
+  .container {
+    width: 80%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .search_button {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 0;
+      border: 0;
+      &_icon {
+        font-size: 30px;
+      }
+
+      &:hover {
+        background-color: #e30118;
+        .search_button_icon {
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+.breadcrumb {
+  width: 80%;
+  margin: 1.5rem auto 0rem;
+  background-color: white;
+  padding: 1rem 1.25rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}

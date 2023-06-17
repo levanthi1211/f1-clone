@@ -1,0 +1,26 @@
+.title_container {
+  width: 80%;
+  margin: 1.5rem auto;
+  padding: 30px 40px;
+  background: rgb(227, 1, 24);
+  background: linear-gradient(
+    90deg,
+    rgba(227, 1, 24, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(253, 217, 0, 1) 100%
+  );
+  border-radius: 0.5rem;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  .title {
+    text-align: center;
+    h1 {
+      font-size: 40px;
+      text-transform: uppercase;
+    }
+    p.sub_title {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+}
