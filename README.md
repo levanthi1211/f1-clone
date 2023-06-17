@@ -56,9 +56,13 @@ Click search icon for open search page.
 Each page have title and showed data. Some pages like drivers or teams have chart under table. <br />
 In each item, you can click to link or item to navigate to the respective page.
 
+### Change year
+
 <img src="public/guide/select_year.png" width="400" alt="select year"><br />
 
 In title component, you can click to button "Change year" to redirect to the selected year (Same page).
+
+### Search
 
 <img src="public/screen_shots/search.png" width="400" alt="search"><br />
 
